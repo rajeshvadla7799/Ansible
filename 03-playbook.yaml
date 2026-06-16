@@ -1,5 +1,5 @@
 - name: install and run nginx
-  hosts: Webservers
+  hosts: webservers
   become: yes
   tasks:
     - name: Install nginx
@@ -12,4 +12,3 @@
         name: nginx
         state: started
         enabled: yes
-        

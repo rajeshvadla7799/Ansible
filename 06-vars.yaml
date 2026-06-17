@@ -7,5 +7,5 @@
   - name: print variabls
     vars: 
       COURSE: ansible
-    ansible.buildin.debug:
+    ansible.builtin.debug:
       msg: "course is: {{ COURSE }}, duration is {{ DURATION }}, trainer is: {{ TRAINER }}"

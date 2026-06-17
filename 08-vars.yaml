@@ -5,5 +5,5 @@
   - course.yaml 
   tasks: 
   - name: print variabls
-    ansible.buildin.debug:
+    ansible.builtin.debug:
       msg: "course is: {{ COURSE }}"

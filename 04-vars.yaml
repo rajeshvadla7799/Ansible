@@ -7,6 +7,6 @@
     TRAINER: "sivakumar"
   tasks: 
   - name: print variabls
-    ansible.buildin.debug:
-      msg: "course is: {{ COURSE }}, duration is {{ DURATION }}trainer is: {{ TRAINER }}"
+    ansible.builtin.debug:
+      msg: "course is: {{ COURSE }}, duration is {{ DURATION }}, trainer is: {{ TRAINER }}"
      

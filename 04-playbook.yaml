@@ -1,0 +1,21 @@
+- name: install httpd and git on amazon linux
+hosts: local
+become: yes
+
+tasks:
+  - name: install httpd
+    yum:
+      name: httpd
+      state: present
+  
+  - name: httpd is started and enable
+  service:
+    name: httpd
+    state: started
+    enabled: yes
+  
+  - name: install git 
+    yum:
+      name: git
+      state: present
+

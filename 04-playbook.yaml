@@ -9,10 +9,10 @@ tasks:
       state: present
   
   - name: httpd is started and enable
-  service:
-    name: httpd
-    state: started
-    enabled: yes
+    service:
+      name: httpd
+      state: started
+      enabled: yes
   
   - name: install git 
     yum:

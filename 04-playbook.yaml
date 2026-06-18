@@ -1,6 +1,6 @@
 - name: install httpd and git on amazon linux
-hosts: local
-become: yes
+  hosts: local
+  become: yes
 
 tasks:
   - name: install httpd

@@ -1,6 +1,7 @@
 ---
 - name: Install httpd and git on Amazon Linux
   hosts: local
+  connection: local
   become: yes
 
   tasks:
